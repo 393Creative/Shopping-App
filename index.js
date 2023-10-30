@@ -1,7 +1,22 @@
-const addBtn = document.getElementById("add-button")
-const inputEl = document.getElementById("input-field")
+const appSettings = {
+    databaseURL: "https://playground-c1191-default-rtdb.firebaseio.com/"
+}
+import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
+import {getDatabase, ref, push} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
-addBtn.addEventListener("click", function() {
-    let inputValue = inputEl.value
+
+
+const app = initializeApp(appSettings)
+const database = getDatabase(app)
+const shoppingListInDB = ref(database, "shoppingList")
+
+
+const inputFieldEl = document.getElementById("input-field")
+const addButtonEl = document.getElementById("add-button")
+
+addButtonEl.addEventListener("click", function() {
+    let inputValue = inputFieldEl.value
+    
+    push(shoppingListInDB, inputValue+)
     console.log(inputValue)
 })
