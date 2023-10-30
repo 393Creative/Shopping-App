@@ -2,7 +2,7 @@ const appSettings = {
     databaseURL: "https://playground-c1191-default-rtdb.firebaseio.com/"
 }
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import {getDatabase, ref, push} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import {getDatabase, ref, push()} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 
 
@@ -18,5 +18,5 @@ addButtonEl.addEventListener("click", function() {
     let inputValue = inputFieldEl.value
     
     push(shoppingListInDB, inputValue+)
-    console.log(inputValue)
+    
 })
