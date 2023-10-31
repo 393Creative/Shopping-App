@@ -1,6 +1,7 @@
 html, body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #4b5f52;
+    font-family: 'Inter', sans-serif;
+    background: rgb(52,50,79);
+    background: linear-gradient(180deg, rgba(52,50,79,1) 0%, rgba(75,95,82,1) 24%, rgba(79,164,109,1) 100%);
     color: #432000;
     user-select: none;
 }
@@ -15,30 +16,31 @@ html, body {
 }
 
 input {
-    color: #432000;
+    color: #000000;
     background-color: #b9f5d0;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 10px 0;
 }
 
 button {
-    color: #352828;
+    color: #544a32;
     background-color: #9cd92b;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 img{
-    width: 150px;
+    width: 180px;
     margin: 0px auto;
 }
 
@@ -54,7 +56,7 @@ ul {
 }
 
 ul li {
-    background-color: #f1fff0;
+    background-color: #f4ffe8c8;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     flex-grow: 1;
