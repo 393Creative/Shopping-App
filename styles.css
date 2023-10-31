@@ -1,7 +1,10 @@
 html, body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
-    background: rgb(52,50,79);
-    background: linear-gradient(180deg, rgba(52,50,79,1) 0%, rgba(75,95,82,1) 24%, rgba(79,164,109,1) 100%);
+    background: rgb(21,70,38);
+    background: linear-gradient(180deg, rgba(21,70,38,1) 0%, rgba(75,95,82,1) 45%, rgba(74,150,102,1) 100%);
     color: #432000;
     user-select: none;
 }
@@ -28,7 +31,7 @@ input {
 }
 
 button {
-    color: #544a32;
+    color: #423926;
     background-color: #9cd92b;
     border: 0;
     padding: 15px;
