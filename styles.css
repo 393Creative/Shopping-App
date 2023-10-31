@@ -1,6 +1,8 @@
 html, body {
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
+    background-color: #4b5f52;
+    color: #432000;
+    user-select: none;
 }
 
 .container{
@@ -14,7 +16,7 @@ html, body {
 
 input {
     color: #432000;
-    background-color: #DCE1EB;
+    background-color: #b9f5d0;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -25,8 +27,8 @@ input {
 }
 
 button {
-    color: #FDFDFD;
-    background-color: #AC485A;
+    color: #352828;
+    background-color: #9cd92b;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -52,11 +54,24 @@ ul {
 }
 
 ul li {
-    background-color: #FFFDF8;
+    background-color: #f1fff0;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
     flex-grow: 1;
     font-size: 20px;
     border-radius: 5px;
     padding: 15px;
+}
+
+button:hover{
+    background-color: #1b1b1b;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+li:hover{
+    text-decoration: line-through #ffffff;
+    background-color: #eb3838;
+    cursor: pointer;
 }
